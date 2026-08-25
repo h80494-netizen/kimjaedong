@@ -149,10 +149,10 @@ ul{margin:0;padding:0;list-style:none}
 .btn .ar{font-family:var(--mono);font-size:13px}
 
 .hero__portrait{position:relative;isolation:isolate}
-.hero__portrait img{position:relative;z-index:1;width:100%;filter:grayscale(100%) contrast(1.04);background:var(--paper-3)}
+.hero__portrait img{position:relative;z-index:1;width:100%;background:var(--paper-3)}
 .hero__portrait::after{content:'';position:absolute;z-index:0;right:-16px;bottom:-16px;width:58%;height:52%;border-right:2px solid var(--accent);border-bottom:2px solid var(--accent);pointer-events:none}
 @media(max-width:940px){.hero__portrait{max-width:400px}}
-.hero__cap{display:flex;justify-content:space-between;gap:12px;margin-top:14px;font-family:var(--mono);font-size:11px;letter-spacing:.08em;color:var(--ink-4);text-transform:uppercase}
+.hero__cap{display:flex;justify-content:space-between;gap:12px;margin-top:26px;font-family:var(--mono);font-size:11px;letter-spacing:.08em;color:var(--ink-4);text-transform:uppercase}
 
 /* ---------- SIGNATURE: 권리 해제 스택 ---------- */
 .lift{border-top:1px solid var(--rule);padding-top:26px;margin-top:44px}
@@ -180,7 +180,7 @@ ul{margin:0;padding:0;list-style:none}
 @media(prefers-reduced-motion:reduce){.row,.row::before{transition:none}}
 
 .figure{position:relative;isolation:isolate}
-.figure img{position:relative;z-index:1;filter:grayscale(100%) contrast(1.04);background:var(--paper-3)}
+.figure img{position:relative;z-index:1;width:100%;background:var(--paper-3)}
 .figure::after{content:'';position:absolute;z-index:0;right:-14px;bottom:-14px;width:56%;height:48%;border-right:2px solid var(--accent);border-bottom:2px solid var(--accent);pointer-events:none}
 
 /* ---------- Stats ---------- */
